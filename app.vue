@@ -1,5 +1,14 @@
 <template>
-  <div>
-    Hello Riiibi
-  </div>
+  <v-app>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </v-app>
 </template>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+</style>
