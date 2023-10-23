@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <header>
     <div class="header-container">
       <div class="top-bar header-bar">
         <div>
@@ -67,8 +67,9 @@
         <menu-list />
       </div>
     </div>
-    <slot />
-  </div>
+  </header>
+  <slot />
+  <footer><p>FOOTER</p></footer>
 </template>
 
 <script setup lang="ts"></script>
@@ -85,7 +86,6 @@ ul {
 .contacts {
   text-decoration: none;
   color: #fff;
-
 }
 
 .logo {
@@ -136,5 +136,9 @@ ul {
 
 .bottom-bar {
   background-color: rgb(68, 115, 201);
+}
+
+footer {
+  height: 600px;
 }
 </style>

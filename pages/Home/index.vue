@@ -1,20 +1,18 @@
 <template>
-  <v-carousel show-arrows="hover" cycle>
-    <v-carousel-item
-      src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-      cover
-    ></v-carousel-item>
+  <carousel />
 
-    <v-carousel-item
-      src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
-      cover
-    ></v-carousel-item>
+  <info-bar />
 
-    <v-carousel-item
-      src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-      cover
-    ></v-carousel-item>
-  </v-carousel>
+  <h2 class="welcome">
+    Риболовен магазин "РИБАРЛЪК" такъми за вашият майсторлък
+  </h2>
 </template>
 
 <script setup lang="ts"></script>
+
+<style scoped>
+.welcome {
+  text-align: center;
+  margin: 2rem;
+}
+</style>

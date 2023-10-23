@@ -1,9 +1,11 @@
 <template>
-  <ul>
-    <li v-for="(item, index) in menuItems" :key="index">
-      <Dropdown :title="item" />
-    </li>
-  </ul>
+  <nav>
+    <ul>
+      <li v-for="(item, index) in menuItems" :key="index">
+        <Dropdown :title="item" />
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script setup lang="ts">
